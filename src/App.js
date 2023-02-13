@@ -4,20 +4,22 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className='w-full flex items-center  justify-between px-10 py-3'>
+      <a className=' text-2xl font-bold'>
+        IOP
+      </a>
+      <div className='flex text-gray-700 items-center space-x-6'>
+        <a>Home</a>
+        <a>Home</a>
+        <a>Home</a>
+        <a>Home</a>
+
+
+      </div>
+
+     </div>
+
+     
     </div>
   );
 }
