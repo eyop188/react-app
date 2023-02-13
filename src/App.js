@@ -9,10 +9,9 @@ function App() {
         IOP
       </a>
       <div className='flex text-gray-700 items-center space-x-6'>
-        <a>Home</a>
-        <a>Home</a>
-        <a>Home</a>
-        <a>Home</a>
+        <a className=' hover:text-red-600 cursor-pointer'>Home</a>
+        <a className=' hover:text-red-600 cursor-pointer'>About</a>
+        <a className=' hover:text-red-600 cursor-pointer'>Contact</a>
 
 
       </div>
